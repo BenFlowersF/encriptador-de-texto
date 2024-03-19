@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador de texto</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="icon" href="./imagenes/favicon-16x16.png" type="image/x-icon">
+</head>
+<body>
+
+<!--Encabezado-->
+    <header>
+        <a href="#" rel="">
+            <img src="imagenes/logo.svg" alt="Logo Alura" class="logo">
+        </a>
+    
+    </header>
+
+    <!--Seccion principal-->
+    <main>
+    <section class="Encriptador"> 
+        <textarea class="Encriptar" name="cajonTexto" id="texto" cols="30" rows="10" placeholder="Ingrese el texto aqui"></textarea>
+        <div class="encriptador-aviso">
+            <img src="imagenes/aviso.svg" alt="Imagen de aviso" class="img-aviso">
+            <p class="texto-aviso">Solo letras minúsculas y sin acentos</p>
+        </div>
+        <div class="encriptador-contenedor">
+            <button type="submit" class="btn-encriptar">Encriptar</button>
+            <button type="submit" class="btn-desencriptar">Desencriptar</button>  
+        </div>
+    </section>
+
+    <section class="Tarjeta">
+        <div class="tarjeta-contenedora">
+            <img src="imagenes/muñeco.svg" alt="imagen muneco" class="img-muneco">
+            <p class="texto-uno">Ningun mensaje fue encontrado</p>
+            <p class="texto-dos">Ingrese el texto que desee encriptar o desencriptar</p>
+        </div>
+        <textarea type="mensaje" class="evaluar" readonly></textarea>
+        <button type="submit" class="btn-copiar">Copiar</button>
+    </section>
+    </main>
+
+    <!--Pie de pagina-->
+    <footer>
+        <p class="copyright"> **Encriptador de texto** Desarrollado por Benjamín Flores &copy;Copyright 2024</p>
+        <a href="https://linkedin.com/in/benjamin-flores-al" target="_blank" rel="">
+            <img src="imagenes/linkedin.svg" alt="Logo LinkedIn" class="LinkedIn">
+            <!--https://cl.linkedin.com/in/benjaminfloresf-->
+        </a>
+         <a href="https://github.com/BenFlowersF" target="_blank" rel="">
+            <img src="imagenes/github.svg" alt="Logo github" class="Git">
+            <!--https://github.com/BenFlowersF-->
+        </a>
+    </footer>
+    <!--Script para dar inicio al programa-->
+    <script src="js/app.js"></script>
+
+</body>
+</html>
